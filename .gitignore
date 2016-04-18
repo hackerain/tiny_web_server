@@ -1,0 +1,20 @@
+# tox
+.tox
+.testrepository/
+.venv
+
+# Compiled files
+*.py[co]
+*.a
+*.o
+*.so
+
+# Other
+*.DS_Store
+.*.sw[po]
+.coverage
+cover/
+AUTHORS
+ChangeLog
+doc/build/
+debug-*
