@@ -68,6 +68,6 @@ def import_module(import_str):
 
 
 if __name__ == '__main__':
-    sys.path.append('/home/suo/demos/tiny_web_server/apps')
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, 'apps')))
     app = import_module('app')
     run_with_cgi(app.application)
